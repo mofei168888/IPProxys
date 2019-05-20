@@ -7,7 +7,7 @@ import logging.config
 from api.apiServer import WebRequestHandler
 from .config import API_PORT
 from .db.SQLiteHelper import SqliteHelper
-from .spider.ProxySpider import ProxySpider
+from spider.ProxySpider import ProxySpider
 import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
