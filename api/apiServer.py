@@ -3,8 +3,8 @@
 定义几个关键字，count type,protocol,country,area,
 '''
 import urllib
-from ..config import API_PORT
-from ..db.SQLiteHelper import SqliteHelper
+from .config import API_PORT
+from .db.SQLiteHelper import SqliteHelper
 
 __author__ = 'Xaxdus'
 

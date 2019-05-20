@@ -1,8 +1,8 @@
 #coding:utf-8
 import datetime
-from ..config import QQWRY_PATH, CHINA_AREA
+from .config import QQWRY_PATH, CHINA_AREA
 
-from ..util.IPAddress import IPAddresss
+from .util.IPAddress import IPAddresss
 import re
 import logging
 logger = logging.getLogger('spider')
