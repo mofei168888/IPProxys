@@ -2,11 +2,11 @@
 from gevent.pool import Pool
 import requests
 import time
-from config import THREADNUM, parserList, MINNUM, UPDATE_TIME
-from db.SQLiteHelper import SqliteHelper
-from spider.HtmlDownLoader import Html_Downloader
-from spider.HtmlPraser import Html_Parser
-from validator.Validator import Validator
+from ..config import THREADNUM, parserList, MINNUM, UPDATE_TIME
+from ..db.SQLiteHelper import SqliteHelper
+from ..spider.HtmlDownLoader import Html_Downloader
+from ..spider.HtmlPraser import Html_Parser
+from ..validator.Validator import Validator
 import logging
 logger = logging.getLogger('spider')
 

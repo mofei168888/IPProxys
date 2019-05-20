@@ -5,9 +5,9 @@ from lxml import etree
 from gevent.pool import Pool
 import requests
 import time
-from config import TEST_URL
-import config
-from db.SQLiteHelper import SqliteHelper
+from ..config import TEST_URL
+import ..config
+from ..db.SQLiteHelper import SqliteHelper
 import logging
 logger = logging.getLogger("validator")
 

@@ -1,6 +1,6 @@
 #coding:utf-8
-from config import DB_CONFIG
-from db.SqlHelper import SqlHelper
+from ..config import DB_CONFIG
+from ..db.SqlHelper import SqlHelper
 
 __author__ = 'Xaxdus'
 import sqlite3
