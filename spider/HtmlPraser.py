@@ -6,7 +6,7 @@ from util.IPAddress import IPAddresss
 import re
 import logging
 logger = logging.getLogger('spider')
-
+logger.setLevel(logging.WARN)
 __author__ = 'Xaxdus'
 from lxml import etree
 class Html_Parser(object):

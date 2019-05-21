@@ -9,6 +9,9 @@ import requests
 import logging
 import chardet
 logger = logging.getLogger('download')
+logger.setLevel(logging.WARN)
+
+
 class Html_Downloader(object):
 
     @classmethod

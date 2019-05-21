@@ -9,6 +9,8 @@ from spider.HtmlPraser import Html_Parser
 from validator.Validator import Validator
 import logging
 logger = logging.getLogger('spider')
+logger.setLevel(logging.WARN)
+
 
 __author__ = 'Xaxdus'
 from gevent import monkey

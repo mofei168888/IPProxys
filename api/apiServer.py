@@ -13,6 +13,7 @@ import json
 import urlparse
 import logging
 logger = logging.getLogger('api')
+logger.setLevel(logging.WARN)
 
 # keylist=['count', 'types','protocol','country','area']
 class WebRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):

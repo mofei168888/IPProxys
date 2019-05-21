@@ -8,6 +8,7 @@ import struct
 
 import logging
 logger = logging.getLogger('util')
+logger.setLevel(logging.WARN)
 
 class IPAddresss:
     def __init__(self, ipdbFile):

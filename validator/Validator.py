@@ -10,6 +10,7 @@ import config
 from db.SQLiteHelper import SqliteHelper
 import logging
 logger = logging.getLogger("validator")
+logger.setLevel(logging.WARN)
 
 from gevent import monkey
 monkey.patch_all()
